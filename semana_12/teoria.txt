@@ -1,1 +1,11 @@
 BUSQUEDA BINARIA
+*Es un algoritmo de búsqueda para encontrar un elemento dentro de una lista ordenada.
+
+FUNCIONAMIENTO 
+*Divide la lista a la mitad y luego descarta un de las mitades y continúa de ese modo hasta encontrar el elemento deseado.
+*La lista debe de estar ordenando de lo contrario el algoritmo de búsqueda será ineficiente.
+*Debe de acceder por el índice.
+
+ANALISIS DEL ALGORITMO
+*Tiempo: su complejidad es O(logn)
+*Estación:O(1)
