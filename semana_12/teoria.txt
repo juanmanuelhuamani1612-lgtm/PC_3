@@ -2,10 +2,21 @@ BUSQUEDA BINARIA
 *Es un algoritmo de búsqueda para encontrar un elemento dentro de una lista ordenada.
 
 FUNCIONAMIENTO 
-*Divide la lista a la mitad y luego descarta una    de las mitades y continúa de ese modo hasta encontrar el elemento deseado.
+*Divide la lista a la mitad y luego descarta una   de las mitades y continúa de ese modo hasta encontrar el elemento deseado.
 *La lista debe de estar ordenando de lo contrario el algoritmo de búsqueda será ineficiente.
 *Debe de acceder por el índice.
 
 ANALISIS DEL ALGORITMO
 *Tiempo: su complejidad es O(logn)
 *Estación:O(1)
+
+BUSQUE LINEAL
+*Se usa principalmente en pequeñas lista de datos o que estén desordenados, es lenta para listas de gran tamaño.
+
+FUNCIONAMIENTO 
+*Recorre la lista elemento por elemento hasta encontrá el elemento que se busca.
+*No necesita que la lista este ordenada.
+
+ANALISIS DEL ALGORITMO 
+*Tiempo:O(n) crece proporcionalmente al tamaño de la lista.
+*Espacio:O(1)
