@@ -8,7 +8,7 @@ FUNCIONAMIENTO
 
 ANALISIS DEL ALGORITMO
 *Tiempo: su complejidad es O(logn)
-*Estación:O(1)
+*Espacio:O(1)
 
 BUSQUE LINEAL
 *Se usa principalmente en pequeñas lista de datos o que estén desordenados, es lenta para listas de gran tamaño.
