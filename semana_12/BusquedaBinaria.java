@@ -2,7 +2,7 @@ package bus_binaria;
         
 import java.util.Arrays;
 import java.util.Scanner;
-
+//CREAMOS LA CLASE PERSONA CON SUS ATRIBUTOS Y SU CONSTRUCTOR
 class Alumno {
     int codigo;
     String nombre;
@@ -15,7 +15,7 @@ class Alumno {
 
 public class BusquedaBinaria {
     public static void main(String[] args) {
-
+//CREAMOS UN ARREGLO PARA AÑADIR A LOS ALUMNOS
         Alumno[] alumnos = {
             new Alumno(1001, "Manuel"),
             new Alumno(1003, "Valeria"),
@@ -43,7 +43,7 @@ public class BusquedaBinaria {
         sc.close();
     }
 
-    // Método de búsqueda binaria
+    //APLICAMOS EL METODO DE BUSQUEDA BINARIA
     public static int busquedaBinaria(Alumno[] alumnos, int codigoBuscado) {
         int inicio = 0;
         int fin = alumnos.length - 1;
@@ -60,6 +60,7 @@ public class BusquedaBinaria {
             }
         }
 
-        return -1; // no encontrado
+        return -1; //NO ENCONTRADO
     }
 }
+
