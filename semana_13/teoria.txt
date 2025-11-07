@@ -1,1 +1,19 @@
+RECURSIVIDAD
+#Es una técnica de programación donde una función se llama a sí misma para resolver un problema.
+#Se basa en dividir el problema en subproblemas más pequeños y similares al original.
+#Tiene dos partes clave:
+  +Caso base: condición que detiene la recursión evita el bucle infinito.
+  +Llamada recursiva: cuando la función se invoca nuevamente con un problema más pequeño.
+#Usa la pila de llamadas (LIFO) para almacenar las funciones activas.
+#Puede ser directa (una función se llama a sí misma) o indirecta (una función A llama a B y B vuelve a llamar a A).
+#Ejemplo típico: cálculo del factorial o exploración de árboles/grafos.
 
+Backtracking
+#Es una técnica recursiva para resolver problemas de búsqueda o decisión.
+#Consiste en probar soluciones parciales y retroceder (“backtrack”) si una opción no lleva a una solución válida.
+#Se usa en problemas donde hay que explorar muchas posibilidades, como:
+  +Resolver laberintos, sudokus, combinaciones, permutaciones, etc.
+#El proceso:
+  +Probar una opción.
+  *Si no funciona, retroceder.
+  +Intentar otra posibilidad.
