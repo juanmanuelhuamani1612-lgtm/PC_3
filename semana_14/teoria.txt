@@ -1,2 +1,3 @@
 Recursividad y backtracking
-
+funcionamieto
+complejidad algoritmica
