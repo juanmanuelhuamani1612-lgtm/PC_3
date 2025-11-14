@@ -8,12 +8,3 @@ RECURSIVIDAD
 #Puede ser directa (una función se llama a sí misma) o indirecta (una función A llama a B y B vuelve a llamar a A).
 #Ejemplo típico: cálculo del factorial o exploración de árboles/grafos.
 
-Backtracking
-#Es una técnica recursiva para resolver problemas de búsqueda o decisión.
-#Consiste en probar soluciones parciales y retroceder (“backtrack”) si una opción no lleva a una solución válida.
-#Se usa en problemas donde hay que explorar muchas posibilidades, como:
-  +Resolver laberintos, sudokus, combinaciones, permutaciones, etc.
-#El proceso:
-  +Probar una opción.
-  *Si no funciona, retroceder.
-  +Intentar otra posibilidad.
