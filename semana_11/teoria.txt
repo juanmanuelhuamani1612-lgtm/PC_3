@@ -1,1 +1,18 @@
+QUICKSORT
+Utiliza la tecnica de divide y venceras dividiendo los problemas en subproblemas hasta que sean mas sensillos de resolver,
+al final se juntan todas las respuenstas para generar un solucion general.
 
+FUNCIONAMIENTO:
+* Selección del Pivote: Se elige un elemento de la lista, llamado pivote.
+
+* Partición: Se reordenan los elementos de la lista de tal manera que todos los elementos menores que el pivote queden a su izquierda
+ y todos los elementos mayores queden a su derecha.
+
+* Recursión: Se aplica el mismo proceso de Quicksort de forma recursiva a las dos sublistas creadas.
+
+COMPLEJIDAD TEMPORAL
+* Mejor caso: O(nlogn)
+* Pero caso: O(n^2) ocurre si se elige como pivote al mayor o menor dato.
+
+COMPLEJIDAD ESPACIAL
+O(nlogn) devido al uso de la recursion el pero caso pude ser O(n)
