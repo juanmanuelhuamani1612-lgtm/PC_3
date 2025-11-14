@@ -1,5 +1,17 @@
-Recursividad y backtracking
-funcionamieto
-La recursividad en Java es una técnica en la que un método se llama a sí mismo para resolver un problema
-más grande dividiéndolo en subproblemas más pequeños. Es una idea muy poderosa
-complejidad algoritmica
+Backtracking
++Es una técnica de búsqueda sistemática usada para resolver problemas que requieren probar muchas combinaciones.
+ Funciona construyendo una solución paso a paso, y si en algún punto se detecta que ese camino no puede
+ producir una solución válida, se retrocede y se intenta otro camino.
+
+FUNCIONAMIENTO
++Haces una elección (agregas un elemento a la solución parcial).
++Verificas si todavía es válida la solución parcial.
++Si es válida → continúas.
++Si no es válida → deshaces la elección (retrocedes) y pruebas otra.
++Repetir hasta encontrar una solución o agotar todas.
+
+USO
++Resolver laberintos o rutas.
++Sudoku, crucigramas, rompecabezas lógicos.
++Generar permutaciones, combinaciones, subconjuntos.
++Resolver problemas de restricciones.
